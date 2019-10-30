@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="threeguokill:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/threeguokill_jar</output-path>
+    <root id="archive" name="threeguokill.jar">
+      <element id="module-output" name="threeguokill" />
+    </root>
+  </artifact>
+</component>
