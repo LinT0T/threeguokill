@@ -42,7 +42,7 @@ public class control {
             while (in.hasNextInt()) {
                 inPut = in.nextInt();
                 if (inPut == 0) break;
-                if (inPut == 1 && you.handPai[0] > 0){ System.out.println("给宁整个Bug！");Thread.sleep(1000);
+                if (inPut == 1 && you.handPai[0] > 0){ System.out.println("给宁整个Bug！！");Thread.sleep(1000);
                     computer.deBug(inPut,cPai[1]);
                     you.chuPai(inPut);
                     cPai = computer.getHandPai();}
