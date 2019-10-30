@@ -31,7 +31,7 @@ public class control {
     public void key(computer computer,Player you,Pai mainPai,control ctrl,Scanner in,int cblood,int sumPai,int csum,int[] cPai) throws InterruptedException {
         int inPut,copyPai,k,n,i= 0;
         while (you.blood > 0 && cblood > 0 && sumPai > 0){              //游戏主程序
-            System.out.println("抽 卡");
+            System.out.println("抽卡");
             k = you.skillhl(you.heros);
             for (i = 1;i <= k;i++){
                 n = you.setStartHandPaiOfPlayer();
